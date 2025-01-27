@@ -16,7 +16,7 @@ describe('example', function () {
         cy.checkElementText('.oxd-text.oxd-text--p.oxd-alert-content-text', 'Invalid credentials')
 
     });
-    it.only('add user', function () {
+    it('add user', function () {
         cy.visit(url)
         mainPageKeyword.login("Admin", "admin123")
         cy.get("aside[class='oxd-sidepanel'] li:nth-child(1)").click()
