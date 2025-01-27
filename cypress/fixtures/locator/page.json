@@ -1,0 +1,33 @@
+{
+    "employee": {
+        "titleEmployee": "h5[class='oxd-text oxd-text--h5 oxd-table-filter-title']",
+        "Addbtn": "button[class='oxd-button oxd-button--medium oxd-button--secondary']",
+        "searchBox": ":nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-autocomplete-wrapper > .oxd-autocomplete-text-input > input",
+        "searchBtn": ".oxd-form-actions > .oxd-button--secondary",
+        "field": "label[class='oxd-label']:nth-child(1)",
+        "result": ".oxd-table-body > :nth-child(1) > .oxd-table-row > :nth-child(3) > div",
+        "checkAll": "div[role='columnheader'] i[class='oxd-icon bi-check oxd-checkbox-input-icon']",
+        "deleteBtn": "button[class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-horizontal-margin']",
+        "titlePopupDelete": ".oxd-text.oxd-text--p.oxd-text--card-title",
+        "bodyPopupDelete": ".oxd-text.oxd-text--p.oxd-text--card-body",
+        "confirmDeleteBtn": "button[class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']"
+    },
+    "addEmployee": {
+        "titleAddEmployee": "h6[class='oxd-text oxd-text--h6 orangehrm-main-title']",
+        "firstName": "input[placeholder='First Name']",
+        "middleName": "input[placeholder='Middle Name']",
+        "lastName": "input[placeholder='Last Name']",
+        "saveBtn": "button[type='submit']",
+        "toastSuccess": ".oxd-text--toast-message"
+    },
+    "employeeDetail": {
+        "titleEmployeeDetail": ".orangehrm-edit-employee-content > :nth-child(1) > .oxd-text--h6",
+        "nationality": ":nth-child(5) > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input",
+        "nationDropdown": ":nth-child(5) > :nth-child(1) > :nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-dropdown.--positon-bottom",
+        "status":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-text > .oxd-select-text-input",
+        "statusDropdown":":nth-child(2) > .oxd-input-group > :nth-child(2) > .oxd-select-wrapper > .oxd-select-dropdown.--positon-bottom",
+        "birthday":":nth-child(1) > .oxd-input-group > :nth-child(2) > .oxd-date-wrapper > .oxd-date-input > .oxd-input",
+        "maleGender":":nth-child(1) > :nth-child(2) > .oxd-radio-wrapper > label",
+        "saveBtn": "div[class='orangehrm-horizontal-padding orangehrm-vertical-padding'] button[type='submit']"
+}
+}

@@ -1,0 +1,13 @@
+{
+    "user": {
+        "firstName": "AATSET",
+        "middleName": "ADD",
+        "lastName": "USER"
+    },
+    "address": {
+        "street": "1234 Test St",
+        "city": "Testville",
+        "state": "TS",
+        "zip": "12345"
+    }
+}

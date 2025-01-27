@@ -1,4 +1,4 @@
-const loginLocator = require('../../fixtures/login.json')
+const loginLocator = require('../../fixtures/locator/login.json')
 
 
 export function login(username, password) {
