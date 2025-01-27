@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress": "^13.17.0",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-multi-reporters": "^2.0.4"
+  },
+  "name": "example-cypress",
+  "version": "1.0.0",
+  "description": "Getting started",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "open_cypress_test": "cypress open --config-file cypress.config.js",
+    "cypress_test": "cypress run --headless --config-file cypress.config.js --reporter mochawesome",
+    "merge_report": "mochawesome-merge results/logs/*.json > results/merged_mochawesome.json",
+    "generate_html_report": "marge results/merged_mochawesome.json",
+    "upload_results": "node AIO_upload_result.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

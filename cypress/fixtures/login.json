@@ -1,0 +1,7 @@
+{
+    "login": {
+        "usernameTextBox": "input[placeholder='Username']",
+        "passwordTextBox": "input[placeholder='Password']",
+        "loginButton": "button[type='submit']"
+    }
+}
